@@ -572,14 +572,16 @@ respected.</li><br>
 														<td><i class="fa fa-rupee"></i>&nbsp; </td>
 															</tr>  -->
 													</table>
-														
+														<br/> <br/>
+													<button style="color:#fff; background-color:inherit; font-size:1.5em;" id="eventbrite-widget-modal-trigger-44280418925" type="button">Register</button>
+														<noscript></a>Register</noscript>
 													</div>
 													<div class="col-md-6 ">
 														<ul class="nav nav-tabs" id="tabContent">
                                                         	<li class="active"><a href="#TME03description" data-toggle="tab">Description</a></li>
 															<li><a href="#TME02rules" data-toggle="tab">Rules</a></li>
 															<li><a href="#TME02call" data-toggle="tab">Contact</a></li>
-                                                            <li><a href="#TME02" data-toggle="tab">Register</a></li>
+                                                    <!--        <li><a href="#TME02" data-toggle="tab">Register</a></li> -->
 														</ul>
 														<div class="tab-content">
 															<div class="tab-pane active DivWithScroll DivToScroll well" id="TME03description">
@@ -791,6 +793,15 @@ respected.</li><br>
         eventId: '44280354733',
         modal: true,
         modalTriggerElementId: 'eventbrite-widget-modal-trigger-44280354733',
+        onOrderComplete: exampleCallback
+    });
+	
+	
+    window.EBWidgets.createWidget({
+        widgetType: 'checkout',
+        eventId: '44280418925',
+        modal: true,
+        modalTriggerElementId: 'eventbrite-widget-modal-trigger-44280418925',
         onOrderComplete: exampleCallback
     });
 </script>
