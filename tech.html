@@ -416,6 +416,10 @@ respected.</li><br>
                                                    <b> Second Prize&nbsp;&nbsp;:&nbsp;&nbsp; <i class="fa fa-rupee"></i>&nbsp;3000</b></br>
                                                    <b>Reg Fee&nbsp;&nbsp;:&nbsp;&nbsp; <i class="fa fa-rupee"></i>&nbsp;200 per Team</b></br>
                                                 </div>
+												
+												<br/> <br/>
+													<button style="color:#fff; background-color:inherit; font-size:1.5em;" id="eventbrite-widget-modal-trigger-44280354733" type="button">Register</button>
+														<noscript></a>Register</noscript>
                                              </div>
                                              <div class="col-md-6 ">
                                                 <ul class="nav nav-tabs" id="tabContent">
@@ -779,6 +783,14 @@ respected.</li><br>
         eventId: '44279970584',
         modal: true,
         modalTriggerElementId: 'eventbrite-widget-modal-trigger-44279970584',
+        onOrderComplete: exampleCallback
+    });
+	
+	window.EBWidgets.createWidget({
+        widgetType: 'checkout',
+        eventId: '44280354733',
+        modal: true,
+        modalTriggerElementId: 'eventbrite-widget-modal-trigger-44280354733',
         onOrderComplete: exampleCallback
     });
 </script>
